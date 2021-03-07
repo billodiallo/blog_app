@@ -1,0 +1,15 @@
+current directory: /home/ppandey/AMicroverseJune20/RailsRoR/blog_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210307-9168-o4b3qf.rb extconf.rb
+creating Makefile
+
+current directory: /home/ppandey/AMicroverseJune20/RailsRoR/blog_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/ppandey/AMicroverseJune20/RailsRoR/blog_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/ppandey/AMicroverseJune20/RailsRoR/blog_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20210307-9168-106xor5/skiptrace/internal

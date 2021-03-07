@@ -1,0 +1,25 @@
+current directory: /home/ppandey/AMicroverseJune20/RailsRoR/blog_app/vendor/bundle/ruby/2.7.0/gems/puma-5.2.2/ext/puma_http11
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210307-9168-175wgka.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+creating Makefile
+
+current directory: /home/ppandey/AMicroverseJune20/RailsRoR/blog_app/vendor/bundle/ruby/2.7.0/gems/puma-5.2.2/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /home/ppandey/AMicroverseJune20/RailsRoR/blog_app/vendor/bundle/ruby/2.7.0/gems/puma-5.2.2/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/ppandey/AMicroverseJune20/RailsRoR/blog_app/vendor/bundle/ruby/2.7.0/gems/puma-5.2.2/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20210307-9168-1t5xhk6/puma
